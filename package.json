@@ -1,0 +1,20 @@
+{
+  "name": "heavenorhell",
+  "version": "1.0.0",
+  "description": "Full stack MERN Web Application where you can share and view others' near heaven/hell stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozyao/HeavenOrHell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozyao/HeavenOrHell/issues"
+  },
+  "homepage": "https://github.com/mozyao/HeavenOrHell#readme"
+}
