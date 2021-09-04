@@ -1,9 +1,9 @@
-export default (posts=[], action) => {
+const posts = (posts=[], action) => {
     switch ( action.type){
         case 'FETCH_ALL':
             return action.payload;
-        case 'CREATE_NEW':
-            return posts;
+        case 'CREATE':
+            return [...posts,action.payload];
         default:
             return posts;
 
@@ -11,4 +11,6 @@ export default (posts=[], action) => {
 
 
 
-}
+};
+
+export default posts;
